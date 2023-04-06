@@ -1,0 +1,237 @@
+html {
+    scroll-behavior: smooth;
+}
+header{
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+.headerMiddleDesktop {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 6rem;
+    margin-left: 3px;
+    word-spacing: 4rem;
+    
+}
+.headerMiddleMobile ul li {
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+.headerMiddleMobile li {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid $accentColor;
+    height: 2rem;
+    width: 7rem;
+    text-align: right;
+    justify-content: right;
+}
+.headerMiddleMobile ul {
+    text-align: right;
+    justify-content: right;
+    
+}
+.headerMiddleDesktop ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+.headerEnd {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: 7rem;
+    word-spacing: 2rem;
+    justify-content: center;
+}
+.headerEnd li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+.headerEndMobile li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    justify-content: center;
+}
+.headerEndMobile ul {
+    justify-content: center;
+}
+// if I take out below code, ul's dissapear in mobile view
+
+
+
+
+// Breakfast
+.breakfast {
+    display:grid;
+}
+
+.breakfastFirst {    
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.menu_headers2{    
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.drinks{
+    margin-top: 4rem;
+}
+
+td{
+    border-bottom: 8px solid #96949466;
+}
+.breakfast{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.breakfastSecond {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgba(41, 40, 40, 0.701);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 0rem;
+}
+
+.breakfastLast { 
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgba(41, 40, 40, 0.701);    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+.breakfastSides, .lunchSides, .dinnerSides {
+    padding-bottom: 2rem;
+}
+// Lunch
+.lunch {
+    display:grid;
+}
+
+.lunchFirst {    
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.menu_headers2{    
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.drinks{
+    margin-top: 4rem;
+}
+
+td{
+    border-bottom: 8px solid #96949466;
+
+}
+.lunch{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.lunchSecond {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgba(41, 40, 40, 0.701);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 0rem;
+}
+
+.lunchLast { 
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgba(41, 40, 40, 0.701);    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+// Dinner
+.dinner {
+    display:grid;
+}
+
+.dinnerFirst {    
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.menu_headers2{    
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.drinks{
+    margin-top: 4rem;
+}
+table {
+    margin-right: 1rem;
+    border-collapse: collapse;
+}
+td{
+    border-bottom: 6px solid #96949466;
+    width: 100%;
+}
+.dinner{
+    
+    max-width: 100%;
+    padding:0;
+    margin: 0;
+    
+}
+
+.dinnerSecond {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgba(41, 40, 40, 0.701);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 0rem;
+}
+
+.dinnerLast { 
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgba(41, 40, 40, 0.701);    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+h3{
+    padding-right: 10rem;
+ 
+}

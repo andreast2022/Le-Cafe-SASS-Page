@@ -1,0 +1,44 @@
+
+@mixin backgroundImageBreakfast() {
+    background: url(images/breakfast.jpg) no-repeat center center/cover;
+}
+@mixin backgroundImageLunch() {
+    background: url(images/lunch.jpg) no-repeat center center/cover;
+}
+@mixin backgroundImageDinner() {
+    background: url(images/dinner.jpg) no-repeat center center/cover;
+}
+@mixin backgroundColor() {
+    background-color: mediumseagreen;    
+}
+@mixin autoGrid($minWidth) {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, min-max($minWidth, 1fr));
+}
+@mixin autoGrid() {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: 1fr, 1fr,1fr;
+}
+@mixin navGrid() {
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr;
+}
+@mixin fontColor() {
+    color: white;
+}
+@mixin menuFontBackground() {
+    background-color: black;
+}
+@mixin centerReservation() {
+    display: inline-block;
+    justify-content: center;
+}
+@mixin td-spacing($amount) {
+    td + td {
+      margin-left: $amount;
+    }
+  }

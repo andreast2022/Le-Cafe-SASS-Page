@@ -1,0 +1,108 @@
+header {
+    @include autoGrid()
+}
+
+
+.breakfast {
+    @include autoGrid();
+}
+
+nav.headerMiddle {
+    @include autoGrid();
+}
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+  }
+  .reservation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-right: auto;
+  }
+.header {
+    margin-top: 0;
+    margin-bottom: 8rem;
+  }
+
+  .iconList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+   
+  }
+  .iconList ul {
+    max-width: 700px;
+  }
+  
+  .iconList li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 5rem;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+  /* Styles for mobile view */
+.mobileFooter {
+  display: block;
+}
+.desktopFooter {
+  display: none;
+}
+
+/* Styles for desktop view */
+@media screen and (min-width: 700px) {
+  .mobileFooter {
+    display: none;
+  }
+  .desktopFooter {
+    display: block;
+  }
+  .headerDesktop {
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    margin-left: 2rem;
+    margin-top: 0rem;
+    
+  }
+}
+
+/* Style for mobile headeer view */
+.headerMobile {
+  display: block;
+}
+.headerDesktop {
+  display: none;
+}
+/* Style for desktop view*/
+@media screen and (min-width: 700px) {
+  .headerMobile {
+    display: none;
+  }
+  .headerDesktop {
+    display: grid;
+  }
+}
+
+  
+ 
+

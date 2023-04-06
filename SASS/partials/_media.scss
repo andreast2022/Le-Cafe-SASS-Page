@@ -1,0 +1,50 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.breakfast{
+    @include backgroundImageBreakfast;
+}
+
+.lunch {
+    @include backgroundImageLunch;
+}
+.dinner {
+    @include backgroundImageDinner;
+}
+/* Default styles for all screen sizes */
+
+body {
+    font-size: 16px;
+  }
+  
+  .header {
+    background-color: white;
+  }
+  
+  /* Styles for mobile devices */
+  
+  @media screen and (max-width: 699px) {
+    html {
+      font-size: 14px;
+    }
+  
+    .header {
+      margin:auto;
+      // height: 16px;
+    }
+  }
+  
+  /* Styles for desktop devices */
+  
+  @media screen and (min-width: 700px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .header {
+      height: 100px;
+    }
+  }
+  
